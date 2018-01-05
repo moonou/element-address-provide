@@ -2,6 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorWebpackPlugin = require('friendly-errors-webpack-plugin')
 const webpack = require('webpack')
+const utils = require('./utils')
 const base = require('./webpack.base.conf')
 
 for (let key in base.entry) {
@@ -13,6 +14,9 @@ for (let key in base.entry) {
 module.exports = Object.assign(
   base,
   {
+    module: {
+      rules: base.module.rules.concat(utils.styleLoaders({ sourceMap: true, usePostCSS: true }))
+    },
     devtool: '#eval-source-map',
     output: {
       path: '/',

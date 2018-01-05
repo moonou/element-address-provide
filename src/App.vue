@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Provide></Provide>
+    <provide></provide>
   </div>
 </template>
 
