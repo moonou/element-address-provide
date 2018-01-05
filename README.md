@@ -1,6 +1,6 @@
 # Introduction
 
-[![npm](https://img.shields.io/npm/v/element-address-provide.svg?style=for-the-badge)]()
+[![npm](https://img.shields.io/npm/v/element-address-provide.svg?style=for-the-badge)](https://www.npmjs.com/package/element-address-provide)
 
 Provide address data to ElementUI Cascader component. datasource from [Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
 
