@@ -2,7 +2,15 @@
   "name": "element-address-provide",
   "version": "1.0.0",
   "description": "covert data for ElementUI Cascader component",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moonou/element-address-provide.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "dev": "node script/dev.js",
     "build": "node script/build.js"
