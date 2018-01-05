@@ -31,9 +31,18 @@ const covert = (data) => {
 export default {
   name: 'ElementAddressProvide',
   render (h) {
-    let datas = covert(pca)
+    if (!this.$slots.default) {
+      console.warn('🌝 this component must have one children component')
+      return
+    }
+    const vnode = this.$slots.default[0]
 
-    this.$slots.default[0].componentOptions.propsData.options = datas
-    return this.$slots.default[0]
+    if (vnode.componentOptions && vnode.componentOptions.tag.toLowerCase() === 'cascader') {
+      vnode.componentOptions.propsData.options = covert(pca)
+    } else {
+      console.warn('🙈 sorry, this component just support wrap Cascader component')
+    }
+
+    return vnode
   }
 }
