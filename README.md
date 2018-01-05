@@ -16,15 +16,19 @@ or
 
 ``` html
 <template>
-  Provide
+  <provide>
+    <cascader></cascader>
+  </provide>
 </template>
 
 <script>
 import Provide from 'element-address-provide'
+import Cascader from 'element-ui/lib/cascader'
 
 export default {
   components: {
-    Provide
+    Provide,
+    Cascader
   }
 }
 </script>
