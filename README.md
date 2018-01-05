@@ -1,6 +1,6 @@
 # Introduction
 
-Provide address data to ElementUI Cascader] component. datasource from [Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
+Provide address data to ElementUI Cascader] component. datasource from [Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
 
 # Usage
 
