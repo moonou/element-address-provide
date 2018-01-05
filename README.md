@@ -22,7 +22,7 @@ or
 </template>
 
 <script>
-import Provide from 'element-address-provide'
+import Provide from 'element-address-provide'
 import Cascader from 'element-ui/lib/cascader'
 
 export default {
