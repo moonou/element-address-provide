@@ -37,7 +37,7 @@ export default {
     }
     const vnode = this.$slots.default[0]
 
-    if (vnode.componentOptions && vnode.componentOptions.tag.toLowerCase().indexOf('cascader') !== -1 ) {
+    if (vnode.componentOptions && vnode.componentOptions.tag.toLowerCase().indexOf('cascader') !== -1) {
       vnode.componentOptions.propsData.options = covert(pca)
     } else {
       console.warn('🙈 sorry, this component just support wrap Cascader component')
