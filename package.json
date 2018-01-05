@@ -1,6 +1,6 @@
 {
   "name": "element-address-provide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "covert data for ElementUI Cascader component",
   "main": "dist/index.js",
   "repository": {
